@@ -1,1 +1,66 @@
 
+
+
+h1 {
+	text-align: center;
+	font-family: "Franklin ITC" ,sans-serif;
+	font-size: 18px;
+}
+
+#entry-header {
+	text-align: center;
+	content: "/2027";
+	padding-right: 5px;
+}
+#pubdate-updated {
+	padding: 1px;
+}
+#author {
+	font-weight: bold;
+	font-family: "Franklin ITC", sans-serif;	
+}
+span{
+	color: #2455C3;
+}
+li {
+	margin: 10px 0; 
+	font-family: "Franklin ITC", sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: "Franklin ITC", sans-serif;
+	font-size: 18px;
+	color: #BA3925;
+}
+h3 {
+	font-family: "Franklin ITC", sans-serif;
+	font-size: 14px;
+}
+ 
+ #p1 {
+ 	font-weight: bold;
+ 	font-size: 18px;
+ }
+
+ p {
+ 	font-family: "Franklin ITC", sans-serif;
+	font-size: 14px;
+
+ }
+
+#figure1 {
+	font-family: "Franklin ITC", sans-serif;
+	font-style: italic;
+}
+
+#figure2 {
+	font-family: "Franklin ITC", sans-serif;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Franklin ITC", sans-serif;
+}
+
