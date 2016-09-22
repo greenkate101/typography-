@@ -1,5 +1,5 @@
 
-.header {
+header {
 	text-align: center;
 }
 
@@ -8,17 +8,17 @@ h1 {
 	font-family: "Franklin ITC" ,sans-serif;
 	font-size: 30px;
 }
-.title {
+.entry.title {
 	padding: 0;
 	margin: 0;
 }
 
-.details {
+.entry.details {
 	padding: 0;
 	margin-top: 10px;
 }
 
-.data { 
+.entry.meta .optional.break { 
 	padding: 0;
 	margin-top: 0;
  }
@@ -61,7 +61,7 @@ h2 {
 }
 
 h2,
-h4 {
+h3 {
 	font-family: arial;
 }
 
@@ -78,11 +78,13 @@ ul > li {
 	font-style: italic;
 }
 
-.authortwo {
+figure > figcaption {
 	font-size: 14px;
 }
-
-a {
+ a {
+	color: #2455C3;
 	text-decoration: none;
 }
+
+
 
