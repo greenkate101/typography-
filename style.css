@@ -1,66 +1,88 @@
 
-
+.header {
+	text-align: center;
+}
 
 h1 {
 	text-align: center;
 	font-family: "Franklin ITC" ,sans-serif;
-	font-size: 18px;
+	font-size: 30px;
+}
+.title {
+	padding: 0;
+	margin: 0;
 }
 
-#entry-header {
-	text-align: center;
-	content: "/2027";
-	padding-right: 5px;
+.details {
+	padding: 0;
+	margin-top: 10px;
 }
-#pubdate-updated {
+
+.data { 
+	padding: 0;
+	margin-top: 0;
+ }
+ .bold {
+ 	font-weight: bold;
+ }
+
+time .pubdate.updated {
 	padding: 1px;
 }
+
+time:before {
+	padding-right: 5px;
+}
+
 #author {
 	font-weight: bold;
 	font-family: "Franklin ITC", sans-serif;	
 }
-span{
+
+span {
 	color: #2455C3;
 }
-li {
+
+main {
+	font-family: "Franklin ITC" ,"Times New Roman", sans-serif;
+}
+
+main > p {
+	font-size: 18px;
+ }
+
+ol > li {
 	margin: 10px 0; 
-	font-family: "Franklin ITC", sans-serif;
 }
 
 h2 {
 	font-weight: bold;
-	font-family: "Franklin ITC", sans-serif;
-	font-size: 18px;
 	color: #BA3925;
 }
-h3 {
-	font-family: "Franklin ITC", sans-serif;
-	font-size: 14px;
+
+h2,
+h4 {
+	font-family: arial;
+}
+
+ul > li {
+	margin: 15px;
 }
  
  #p1 {
  	font-weight: bold;
- 	font-size: 15px;
+ 	font-size: 20px;
  }
 
- p {
- 	font-family: "Franklin ITC", sans-serif;
-	font-size: 14px;
-
- }
-
-#figure1 {
-	font-family: "Franklin ITC", sans-serif;
+.quote {
 	font-style: italic;
 }
 
-#figure2 {
-	font-family: "Franklin ITC", sans-serif;
-	font-style: italic;
+.authortwo {
+	font-size: 14px;
 }
 
 a {
 	text-decoration: none;
-	font-family: "Franklin ITC", sans-serif;
 }
 
